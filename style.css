@@ -15,3 +15,13 @@ html,
 body {
     border: none;
 }
+
+h1,h2,h3,h4,h5,h6,p,a {
+    border: 2 px solid rgb(179,84,84);
+}
+
+.bg-image {
+    background-color: rgb(230, 176, 28);
+}
+
+/* End Temporary Styles */
