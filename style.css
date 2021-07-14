@@ -173,4 +173,6 @@ footer p {
 @media (max-width: 48em) {
 
     .hide-sm { display: none; }
+
+    .flex-flip-sm { flex-direction: column-reverse; }
 }
