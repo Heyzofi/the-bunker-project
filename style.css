@@ -42,6 +42,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 .padded {padding: 5%;}
 .padded-1 {padding: 1rem;}
 .padded-2 {padding: 2rem;}
+.padded-lg {padding: 10%;}
 
 .margin-b-0 {margin-bottom:0;}
 
@@ -67,6 +68,28 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 0.5rem;
 }
 
+h1{
+    font-size: 8rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+.not-bold{
+    font-weight: 400;
+}
+
+.subtle {
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
 p, li {
     font-weight: 300;
     line-height: 1.4;
@@ -77,6 +100,33 @@ p, li {
 p:last-child,
 li:last-child {
     margin-bottom: 0;
+}
+
+a {
+    color: inherit;
+}
+
+nav a {
+    text-decoration: none;
+}
+a:hover {
+    color: #4e91ad;
+}
+
+.fab {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+/* Footer */
+
+footer h2{
+    font-size: 6rem;
+    line-height: 4.8rem;
+}
+
+footer p {
+    margin-bottom: 0.2rem;
 }
 
 /* Background Images */
@@ -109,4 +159,12 @@ li:last-child {
 }
 .bg-map {
     background-image: url('/images/the-bunker-6.png');
+}
+
+.bg-top{
+    background-position: 50% 17%;
+}
+
+.bg-padded{
+    padding-bottom: 30%;
 }
