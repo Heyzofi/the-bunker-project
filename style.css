@@ -168,3 +168,9 @@ footer p {
 .bg-padded{
     padding-bottom: 30%;
 }
+
+/* SM - max-width in pixels approximately 768px */
+@media (max-width: 48em) {
+
+    .hide-sm { display: none; }
+}
